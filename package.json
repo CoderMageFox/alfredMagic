@@ -1,0 +1,20 @@
+{
+  "name": "alfredFE",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "alfy": "^0.6.0"
+  },
+  "dependencies": {
+    "lodash.difference": "^4.5.0",
+    "lodash.sample": "^4.2.1",
+    "lodash.union": "^4.6.0",
+    "lodash.without": "^4.4.0"
+  }
+}
