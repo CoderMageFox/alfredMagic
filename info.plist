@@ -49,11 +49,24 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F51437FF-2925-4621-8486-5718CC330DD9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>65362015-A490-4647-95D0-76F3001CFA9E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>CoderMageFox</string>
 	<key>description</key>
-	<string>A Alfread Workflow For FrontEnd Developer.</string>
+	<string>Alfread Workflow For FrontEnd Developer.</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -128,6 +141,73 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>7058EC8E-E2B9-4134-A85D-C92BE50493FD</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://caniuse.com/#search={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>65362015-A490-4647-95D0-76F3001CFA9E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>126</integer>
+				<key>keyword</key>
+				<string>use</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>CanIUse查询中...</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node './CanIUse/caniuse.js'  {query}
+//CanIuse查询组件,可自定义Key,回车为打开CanIuse相关搜索.</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>CanIUse查询</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F51437FF-2925-4621-8486-5718CC330DD9</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -269,7 +349,16 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>
+alfredFE:可能是最好用的前端Alfred工作流.
+
+
+CodeBy:CoderMageFox
+Lincense:MIT
+Blog:http://blog.codermagefox.com
+Mail:codermagefox@codermagefox.com
+Have a nice time!
+    </string>
 	<key>uidata</key>
 	<dict>
 		<key>0A329E4B-AB21-41F7-A869-D878DF4EAE92</key>
@@ -282,9 +371,16 @@
 		<key>186F7CEF-2C6D-48FB-93AD-8B4F0CDCD57D</key>
 		<dict>
 			<key>xpos</key>
+			<integer>170</integer>
+			<key>ypos</key>
+			<integer>630</integer>
+		</dict>
+		<key>65362015-A490-4647-95D0-76F3001CFA9E</key>
+		<dict>
+			<key>xpos</key>
 			<integer>190</integer>
 			<key>ypos</key>
-			<integer>210</integer>
+			<integer>190</integer>
 		</dict>
 		<key>7058EC8E-E2B9-4134-A85D-C92BE50493FD</key>
 		<dict>
@@ -296,23 +392,30 @@
 		<key>A5DBC9C7-FF2F-43A6-A092-74E95C619DBB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>30</integer>
+			<integer>10</integer>
 			<key>ypos</key>
-			<integer>340</integer>
+			<integer>760</integer>
 		</dict>
 		<key>D7E5DE2F-1DA9-4859-AD32-711D851D93B3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>170</integer>
 			<key>ypos</key>
-			<integer>340</integer>
+			<integer>760</integer>
 		</dict>
 		<key>EE6C8832-F5C2-4279-9B1D-FA41B9055B5D</key>
 		<dict>
 			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>630</integer>
+		</dict>
+		<key>F51437FF-2925-4621-8486-5718CC330DD9</key>
+		<dict>
+			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>210</integer>
+			<integer>190</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

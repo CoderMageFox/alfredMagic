@@ -1,5 +1,5 @@
 const alfy = require('alfy');
-const sample = require('lodash.sample');
+const _ = require('lodash')
 //此处Key为GitHub上搜集而来,如有冒犯请谅解
 const KeyArray = [
     {
@@ -27,7 +27,7 @@ const KeyArray = [
 module.exports = {
     youDaoApi: 'http://fanyi.youdao.com/openapi.do',
     getParams: function () {
-        let selected = sample(KeyArray);
+        let selected = _.sample(KeyArray);
         return {
             query: {
                 keyfrom: selected.keyfrom,
