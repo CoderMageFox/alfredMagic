@@ -62,6 +62,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F5A2EF40-DCAC-4284-902D-8DA1FAD5D8D2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8282DD10-3AA9-469C-B681-3629599AB9CA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>CoderMageFox</string>
@@ -214,19 +227,68 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
 				<true/>
-				<key>clipboardtext</key>
-				<string>function {query}(){
-	{cursor}
-}</string>
-				<key>transient</key>
-				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>186F7CEF-2C6D-48FB-93AD-8B4F0CDCD57D</string>
+			<string>8282DD10-3AA9-469C-B681-3629599AB9CA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>mdn</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>MDN查询中...</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node './MDN/MDN.js'   {query}
+
+//使用MDN查询</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>模糊搜索可能会导致请求结果较慢</string>
+				<key>title</key>
+				<string>MDN查询</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F5A2EF40-DCAC-4284-902D-8DA1FAD5D8D2</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -275,6 +337,25 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>EE6C8832-F5C2-4279-9B1D-FA41B9055B5D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>function {query}(){
+	{cursor}
+}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>186F7CEF-2C6D-48FB-93AD-8B4F0CDCD57D</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -389,6 +470,13 @@ Have a nice time!
 			<key>ypos</key>
 			<integer>20</integer>
 		</dict>
+		<key>8282DD10-3AA9-469C-B681-3629599AB9CA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>190</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
 		<key>A5DBC9C7-FF2F-43A6-A092-74E95C619DBB</key>
 		<dict>
 			<key>xpos</key>
@@ -416,6 +504,13 @@ Have a nice time!
 			<integer>30</integer>
 			<key>ypos</key>
 			<integer>190</integer>
+		</dict>
+		<key>F5A2EF40-DCAC-4284-902D-8DA1FAD5D8D2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>320</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
