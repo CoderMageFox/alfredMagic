@@ -3,13 +3,39 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>AlfredFE</string>
+	<string>AlfredMagic</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>0A329E4B-AB21-41F7-A869-D878DF4EAE92</key>
 		<array/>
+		<key>234343B8-6F8E-448E-A094-9D864621269C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3789B239-CC9B-4580-8BD6-9AF9F5EF1296</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>34051885-0A8D-4535-8DBF-32E3546D43B7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3789B239-CC9B-4580-8BD6-9AF9F5EF1296</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>7058EC8E-E2B9-4134-A85D-C92BE50493FD</key>
 		<array>
 			<dict>
@@ -28,6 +54,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>D7E5DE2F-1DA9-4859-AD32-711D851D93B3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E929FD56-B257-4345-91B1-DE719771AFC4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>63044A5D-9F66-45B8-A33D-C050FFD61232</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -79,13 +118,249 @@
 	<key>createdby</key>
 	<string>CoderMageFox</string>
 	<key>description</key>
-	<string>Alfread Workflow For FrontEnd Developer.</string>
+	<string>可能是最好的中文Alfread Workflow</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>AlfredFE</string>
+	<string>AlfredMagic</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>so</string>
+				<key>queuedelaycustom</key>
+				<integer>10</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>2</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>少女祈祷中......</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node './StackOverFlow/so.js' {query}
+//注意:API有同一IP 300次调用限制,如果超过需要等待 2小时左右.所以我将输入节流做的很大,请自行调整Run Behaviour
+</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>中文翻译不一定准,英文可直接用快捷键查询</string>
+				<key>title</key>
+				<string>StackOverFlow中文查询</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>34051885-0A8D-4535-8DBF-32E3546D43B7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>3789B239-CC9B-4580-8BD6-9AF9F5EF1296</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://caniuse.com/#search={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>65362015-A490-4647-95D0-76F3001CFA9E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>126</integer>
+				<key>keyword</key>
+				<string>use</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>CanIUse查询中...</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node './CanIUse/caniuse.js'  {query}
+//CanIuse查询组件,可自定义Key,回车为打开CanIuse相关搜索.</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>CanIUse查询</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F51437FF-2925-4621-8486-5718CC330DD9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>mdn</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>MDN查询中...</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node './MDN/MDN.js'   {query}
+
+//使用MDN查询</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>模糊搜索可能会导致请求结果较慢</string>
+				<key>title</key>
+				<string>MDN查询</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F5A2EF40-DCAC-4284-902D-8DA1FAD5D8D2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>8282DD10-3AA9-469C-B681-3629599AB9CA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>argumenttext</key>
+				<string>https://stackoverflow.com/search?q=</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>1</integer>
+				<key>hotmod</key>
+				<integer>1572864</integer>
+				<key>hotstring</key>
+				<string>S</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>234343B8-6F8E-448E-A094-9D864621269C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -160,25 +435,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://caniuse.com/#search={query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>65362015-A490-4647-95D0-76F3001CFA9E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -188,22 +444,23 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>126</integer>
+				<integer>127</integer>
 				<key>keyword</key>
-				<string>use</string>
+				<string>vue</string>
 				<key>queuedelaycustom</key>
-				<integer>3</integer>
+				<integer>4</integer>
 				<key>queuedelayimmediatelyinitially</key>
 				<true/>
 				<key>queuedelaymode</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>CanIUse查询中...</string>
+				<string>Waiting...</string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node './CanIUse/caniuse.js'  {query}
-//CanIuse查询组件,可自定义Key,回车为打开CanIuse相关搜索.</string>
+				<string>./node_modules/.bin/run-node './VueDocument/VueDocument.js' {query}
+
+//Vue.js文档查询</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -211,7 +468,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>CanIUse查询</string>
+				<string>Vue.js文档查询</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -220,7 +477,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>F51437FF-2925-4621-8486-5718CC330DD9</string>
+			<string>E929FD56-B257-4345-91B1-DE719771AFC4</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -239,58 +496,9 @@
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>8282DD10-3AA9-469C-B681-3629599AB9CA</string>
+			<string>63044A5D-9F66-45B8-A33D-C050FFD61232</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>keyword</key>
-				<string>mdn</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>MDN查询中...</string>
-				<key>script</key>
-				<string>./node_modules/.bin/run-node './MDN/MDN.js'   {query}
-
-//使用MDN查询</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>模糊搜索可能会导致请求结果较慢</string>
-				<key>title</key>
-				<string>MDN查询</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>F5A2EF40-DCAC-4284-902D-8DA1FAD5D8D2</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -362,21 +570,54 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>class {query} {
-    constructor () {
-		{cursor}
-      }
-}</string>
-				<key>transient</key>
+				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>vn</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Waiting...</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node './VariableNameTransLate/bigHump.js' {query}
+
+//变量/函数通用取名命令
+//修改bigHump.js修改默认命名生成,可选:
+//bigHump.js:大驼峰命名
+//littleHump.js小驼峰命名
+//bigUnderLine:大写加下划线
+//littleUnderLine:小写加下划线</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>输入中英文均可互译</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>D7E5DE2F-1DA9-4859-AD32-711D851D93B3</string>
+			<string>3E53EEBF-6F90-4229-B9CB-A93AB237997C</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -428,6 +669,27 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>class {query} {
+    constructor () {
+		{cursor}
+      }
+}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>D7E5DE2F-1DA9-4859-AD32-711D851D93B3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>
@@ -445,72 +707,114 @@ Have a nice time!
 		<key>0A329E4B-AB21-41F7-A869-D878DF4EAE92</key>
 		<dict>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>310</integer>
 		</dict>
 		<key>186F7CEF-2C6D-48FB-93AD-8B4F0CDCD57D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>170</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>630</integer>
+			<integer>460</integer>
+		</dict>
+		<key>234343B8-6F8E-448E-A094-9D864621269C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>430</integer>
+			<key>ypos</key>
+			<integer>160</integer>
+		</dict>
+		<key>34051885-0A8D-4535-8DBF-32E3546D43B7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>430</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
+		<key>3789B239-CC9B-4580-8BD6-9AF9F5EF1296</key>
+		<dict>
+			<key>xpos</key>
+			<integer>670</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
+		<key>3E53EEBF-6F90-4229-B9CB-A93AB237997C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>420</integer>
+			<key>ypos</key>
+			<integer>460</integer>
+		</dict>
+		<key>63044A5D-9F66-45B8-A33D-C050FFD61232</key>
+		<dict>
+			<key>xpos</key>
+			<integer>600</integer>
+			<key>ypos</key>
+			<integer>310</integer>
 		</dict>
 		<key>65362015-A490-4647-95D0-76F3001CFA9E</key>
 		<dict>
 			<key>xpos</key>
 			<integer>190</integer>
 			<key>ypos</key>
-			<integer>190</integer>
+			<integer>30</integer>
 		</dict>
 		<key>7058EC8E-E2B9-4134-A85D-C92BE50493FD</key>
 		<dict>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>310</integer>
 		</dict>
 		<key>8282DD10-3AA9-469C-B681-3629599AB9CA</key>
 		<dict>
 			<key>xpos</key>
 			<integer>190</integer>
 			<key>ypos</key>
-			<integer>320</integer>
+			<integer>160</integer>
 		</dict>
 		<key>A5DBC9C7-FF2F-43A6-A092-74E95C619DBB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>30</integer>
 			<key>ypos</key>
-			<integer>760</integer>
+			<integer>590</integer>
 		</dict>
 		<key>D7E5DE2F-1DA9-4859-AD32-711D851D93B3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>170</integer>
+			<integer>210</integer>
 			<key>ypos</key>
-			<integer>760</integer>
+			<integer>590</integer>
+		</dict>
+		<key>E929FD56-B257-4345-91B1-DE719771AFC4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>430</integer>
+			<key>ypos</key>
+			<integer>310</integer>
 		</dict>
 		<key>EE6C8832-F5C2-4279-9B1D-FA41B9055B5D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>30</integer>
 			<key>ypos</key>
-			<integer>630</integer>
+			<integer>460</integer>
 		</dict>
 		<key>F51437FF-2925-4621-8486-5718CC330DD9</key>
 		<dict>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>190</integer>
+			<integer>30</integer>
 		</dict>
 		<key>F5A2EF40-DCAC-4284-902D-8DA1FAD5D8D2</key>
 		<dict>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>320</integer>
+			<integer>160</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

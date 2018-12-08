@@ -1,3 +1,3 @@
-#AflredFE
-可能是最好的前端Aflred工作流.
+#AlfredMagic
+可能是最好的中文Alfred工作流.
 Ver 0.0.1

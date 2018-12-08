@@ -1,9 +1,9 @@
 //LittleUnderLine主逻辑入口
 
-const Config = require('./Config/CustomerConfig.js');
-const GetResult = require('./MainLogic/GetResultFromYOUDAO.js');
+const Config = require('../Config/CustomerConfig.js');
+const GetResult = require('./MainLogic/FeachDataFromServer.js');
 const {Processer} = require('./MainLogic/ProcessingResults.js');
 
 (function () {
-    GetResult.core(Config.youDaoApi,Config.getParams(),Processer.littleUnderLine);
+    GetResult.getJoinedResult(Config.youDaoApi,Config.getParams(),Processer.littleUnderLine);
 })();
