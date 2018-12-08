@@ -21,13 +21,13 @@ class VueDocumentActions {
                 ResultArr=[];
                 content.hits.map((hit)=>{
                     let subtitle;
-                    subtitle = '文档';
+                    subtitle = 'Vue';
                     _.forEach(hit.hierarchy,function (value) {
                         if(value!==null)
                         {subtitle +=  '=>'+value }
                     });
                     ResultArr.push({
-                        title:`${hit.anchor==='ad'?`进入文档查看`:hit.anchor}`,
+                        title:`${hit.anchor==='ad'?`进入文档`:hit.anchor}`,
                         subtitle:subtitle,
                         arg:hit.url,
                     })

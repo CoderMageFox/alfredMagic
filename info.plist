@@ -23,11 +23,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>31797CFC-07C7-497E-A94C-37F74F9E4787</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F2A678A6-E2DC-4974-8EA7-F9FBDDC77A2C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>34051885-0A8D-4535-8DBF-32E3546D43B7</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>3789B239-CC9B-4580-8BD6-9AF9F5EF1296</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6E95249C-5186-4D8F-B728-B8D776F3D0A5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8282DD10-3AA9-469C-B681-3629599AB9CA</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -49,11 +75,37 @@
 				<false/>
 			</dict>
 		</array>
-		<key>A5DBC9C7-FF2F-43A6-A092-74E95C619DBB</key>
+		<key>901B1800-E8C9-467C-92AA-D522F3ED4562</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D7E5DE2F-1DA9-4859-AD32-711D851D93B3</string>
+				<string>9E08627D-FC6F-49A3-9F2E-8AA77A905F44</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BE2DA7B6-0400-442A-8A76-863CEE44289D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C2EF3884-4DD4-4274-8F3F-4A44E75161F1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D8C3711E-187C-4066-968E-810B4E920193</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>65362015-A490-4647-95D0-76F3001CFA9E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -67,19 +119,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>63044A5D-9F66-45B8-A33D-C050FFD61232</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>EE6C8832-F5C2-4279-9B1D-FA41B9055B5D</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>186F7CEF-2C6D-48FB-93AD-8B4F0CDCD57D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -114,11 +153,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F67D9F7B-A274-440B-82AD-729BFD821AD9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4491DCB4-1051-40D6-9980-15D9F9E9CD34</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FC1D79A0-2784-4136-91BC-F60E7B8D3DB6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>186F7CEF-2C6D-48FB-93AD-8B4F0CDCD57D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>CoderMageFox</string>
 	<key>description</key>
-	<string>可能是最好的中文Alfread Workflow</string>
+	<string>一个面向效率提升的中文WorkFlow.</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -152,6 +217,7 @@
 				<string>少女祈祷中......</string>
 				<key>script</key>
 				<string>./node_modules/.bin/run-node './StackOverFlow/so.js' {query}
+
 //注意:API有同一IP 300次调用限制,如果超过需要等待 2小时左右.所以我将输入节流做的很大,请自行调整Run Behaviour
 </string>
 				<key>scriptargtype</key>
@@ -173,44 +239,6 @@
 			<string>34051885-0A8D-4535-8DBF-32E3546D43B7</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>3789B239-CC9B-4580-8BD6-9AF9F5EF1296</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://caniuse.com/#search={query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>65362015-A490-4647-95D0-76F3001CFA9E</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -263,51 +291,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>keyword</key>
-				<string>mdn</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>MDN查询中...</string>
-				<key>script</key>
-				<string>./node_modules/.bin/run-node './MDN/MDN.js'   {query}
-
-//使用MDN查询</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
+				<key>browser</key>
 				<string></string>
-				<key>subtext</key>
-				<string>模糊搜索可能会导致请求结果较慢</string>
-				<key>title</key>
-				<string>MDN查询</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>F5A2EF40-DCAC-4284-902D-8DA1FAD5D8D2</string>
+			<string>3789B239-CC9B-4580-8BD6-9AF9F5EF1296</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -324,7 +322,7 @@
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>8282DD10-3AA9-469C-B681-3629599AB9CA</string>
+			<string>65362015-A490-4647-95D0-76F3001CFA9E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -344,7 +342,7 @@
 				<key>hotkey</key>
 				<integer>1</integer>
 				<key>hotmod</key>
-				<integer>1572864</integer>
+				<integer>524288</integer>
 				<key>hotstring</key>
 				<string>S</string>
 				<key>leftcursor</key>
@@ -364,17 +362,33 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>argumenttext</key>
+				<string>https://caniuse.com/#search=</string>
+				<key>focusedappvariable</key>
 				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>32</integer>
+				<key>hotmod</key>
+				<integer>524288</integer>
+				<key>hotstring</key>
+				<string>U</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
+			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>0A329E4B-AB21-41F7-A869-D878DF4EAE92</string>
+			<string>D8C3711E-187C-4066-968E-810B4E920193</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -392,34 +406,29 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>keyword</key>
-				<string>vn</string>
+				<string>mdn</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
-				<true/>
+				<false/>
 				<key>queuedelaymode</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Waiting...</string>
+				<string>MDN查询中...</string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node './VariableNameTransLate/bigHump.js' {query}
+				<string>./node_modules/.bin/run-node './MDN/MDN.js' {query}
 
-//变量/函数通用取名命令
-//修改bigHump.js修改默认命名生成,可选:
-//bigHump.js:大驼峰命名
-//littleHump.js小驼峰命名
-//bigUnderLine:大写加下划线
-//littleUnderLine:小写加下划线</string>
+//使用MDN查询</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>模糊搜索可能会导致请求结果较慢</string>
 				<key>title</key>
-				<string>输入中英文均可互译</string>
+				<string>MDN查询</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -428,7 +437,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>7058EC8E-E2B9-4134-A85D-C92BE50493FD</string>
+			<string>F5A2EF40-DCAC-4284-902D-8DA1FAD5D8D2</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -503,6 +512,58 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>8282DD10-3AA9-469C-B681-3629599AB9CA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>argumenttext</key>
+				<string>https://developer.mozilla.org/zh-CN/search?q=</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>46</integer>
+				<key>hotmod</key>
+				<integer>524288</integer>
+				<key>hotstring</key>
+				<string>M</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>6E95249C-5186-4D8F-B728-B8D776F3D0A5</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -512,22 +573,23 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>126</integer>
+				<integer>127</integer>
 				<key>keyword</key>
-				<string>f</string>
+				<string>react</string>
 				<key>queuedelaycustom</key>
-				<integer>3</integer>
+				<integer>4</integer>
 				<key>queuedelayimmediatelyinitially</key>
-				<true/>
+				<false/>
 				<key>queuedelaymode</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Waiting...</string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node './VariableNameTransLate/littleHump.js'  {query}
-//生成小写开头的函数</string>
+				<string>./node_modules/.bin/run-node './ReactDocument/ReactDocument.js' {query}
+
+//React.js文档查询</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -535,7 +597,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>根据中文名称生成函数</string>
+				<string>React.js文档查询</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -544,26 +606,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>EE6C8832-F5C2-4279-9B1D-FA41B9055B5D</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>function {query}(){
-	{cursor}
-}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>186F7CEF-2C6D-48FB-93AD-8B4F0CDCD57D</string>
+			<string>31797CFC-07C7-497E-A94C-37F74F9E4787</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -617,55 +660,126 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>3E53EEBF-6F90-4229-B9CB-A93AB237997C</string>
+			<string>7058EC8E-E2B9-4134-A85D-C92BE50493FD</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>126</integer>
-				<key>keyword</key>
-				<string>class</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Waiting...</string>
-				<key>script</key>
-				<string>./node_modules/.bin/run-node './VariableNameTransLate/BigHump.js'  {query}
-//生成大写开头的类</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
+				<key>browser</key>
 				<string></string>
-				<key>subtext</key>
+				<key>spaces</key>
 				<string></string>
-				<key>title</key>
-				<string>根据中文名生成Class</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>A5DBC9C7-FF2F-43A6-A092-74E95C619DBB</string>
+			<string>F2A678A6-E2DC-4974-8EA7-F9FBDDC77A2C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>0A329E4B-AB21-41F7-A869-D878DF4EAE92</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>&gt;h</string>
+				<key>subtext</key>
+				<string>可在此处调起Shell命令窗口</string>
+				<key>text</key>
+				<string>在此处调起Shell命令窗口</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>F67D9F7B-A274-440B-82AD-729BFD821AD9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  tell application "Finder"
+    set pathList to (quoted form of POSIX path of (folder of the front window as alias))
+  end tell
+  
+  tell application "System Events"
+    if not (exists (processes where name is "Terminal")) then
+      do shell script "open -a Terminal " &amp; pathList
+    else
+      tell application "Terminal"
+        activate
+        tell application "System Events" to tell process "Terminal.app" to keystroke "t" using command down
+        do script ("cd " &amp; pathList) in first window
+      end tell
+    end if
+  end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>4491DCB4-1051-40D6-9980-15D9F9E9CD34</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>19</integer>
+				<key>hotmod</key>
+				<integer>524288</integer>
+				<key>hotstring</key>
+				<string>2</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>BE2DA7B6-0400-442A-8A76-863CEE44289D</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -675,18 +789,164 @@
 				<key>autopaste</key>
 				<true/>
 				<key>clipboardtext</key>
-				<string>class {query} {
-    constructor () {
-		{cursor}
-      }
-}</string>
+				<string>import * as React from 'react';
+import * as Styles from './{query}.scss'
+
+export default class {query} extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			//定义状态
+		}
+	}
+
+	getDefaultProps() {
+		//do something
+	}
+
+	getInitialState() {
+		//do something
+	}
+
+	componentWillMount() {
+		//do something
+	}
+
+	componentDidMount() {
+		//do something
+	}
+
+	shouldComponentUpdate() {
+		//do something
+	}
+
+	ComponentDidUpdate() {
+		//do something
+	}
+
+	componentWillUnmount() {
+		//do something
+	}
+	static getDerivedStateFromProps(props, state) {
+		return null
+	}
+	render() {
+		//do something
+	}
+}
+
+</string>
 				<key>transient</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>D7E5DE2F-1DA9-4859-AD32-711D851D93B3</string>
+			<string>186F7CEF-2C6D-48FB-93AD-8B4F0CDCD57D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>const {query} = (props) =&gt; (
+    &lt;div&gt;
+     	{cursor}
+    &lt;/div&gt;
+);</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>C2EF3884-4DD4-4274-8F3F-4A44E75161F1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>18</integer>
+				<key>hotmod</key>
+				<integer>524288</integer>
+				<key>hotstring</key>
+				<string>1</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>FC1D79A0-2784-4136-91BC-F60E7B8D3DB6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query} = () =&gt; {
+       {cursor}
+    }
+
+</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>9E08627D-FC6F-49A3-9F2E-8AA77A905F44</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>20</integer>
+				<key>hotmod</key>
+				<integer>524288</integer>
+				<key>hotstring</key>
+				<string>3</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>901B1800-E8C9-467C-92AA-D522F3ED4562</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -707,114 +967,163 @@ Have a nice time!
 		<key>0A329E4B-AB21-41F7-A869-D878DF4EAE92</key>
 		<dict>
 			<key>xpos</key>
-			<integer>200</integer>
+			<integer>190</integer>
 			<key>ypos</key>
-			<integer>310</integer>
+			<integer>510</integer>
 		</dict>
 		<key>186F7CEF-2C6D-48FB-93AD-8B4F0CDCD57D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>200</integer>
+			<integer>190</integer>
 			<key>ypos</key>
-			<integer>460</integer>
+			<integer>810</integer>
 		</dict>
 		<key>234343B8-6F8E-448E-A094-9D864621269C</key>
 		<dict>
 			<key>xpos</key>
 			<integer>430</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>140</integer>
+		</dict>
+		<key>31797CFC-07C7-497E-A94C-37F74F9E4787</key>
+		<dict>
+			<key>xpos</key>
+			<integer>430</integer>
+			<key>ypos</key>
+			<integer>510</integer>
 		</dict>
 		<key>34051885-0A8D-4535-8DBF-32E3546D43B7</key>
 		<dict>
 			<key>xpos</key>
 			<integer>430</integer>
 			<key>ypos</key>
-			<integer>30</integer>
+			<integer>20</integer>
 		</dict>
 		<key>3789B239-CC9B-4580-8BD6-9AF9F5EF1296</key>
 		<dict>
 			<key>xpos</key>
-			<integer>670</integer>
+			<integer>610</integer>
 			<key>ypos</key>
-			<integer>30</integer>
+			<integer>70</integer>
 		</dict>
-		<key>3E53EEBF-6F90-4229-B9CB-A93AB237997C</key>
+		<key>4491DCB4-1051-40D6-9980-15D9F9E9CD34</key>
 		<dict>
 			<key>xpos</key>
-			<integer>420</integer>
+			<integer>190</integer>
 			<key>ypos</key>
-			<integer>460</integer>
+			<integer>660</integer>
 		</dict>
 		<key>63044A5D-9F66-45B8-A33D-C050FFD61232</key>
 		<dict>
 			<key>xpos</key>
 			<integer>600</integer>
 			<key>ypos</key>
-			<integer>310</integer>
+			<integer>330</integer>
 		</dict>
 		<key>65362015-A490-4647-95D0-76F3001CFA9E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>30</integer>
+			<integer>70</integer>
 		</dict>
-		<key>7058EC8E-E2B9-4134-A85D-C92BE50493FD</key>
+		<key>6E95249C-5186-4D8F-B728-B8D776F3D0A5</key>
 		<dict>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>310</integer>
+			<integer>390</integer>
+		</dict>
+		<key>7058EC8E-E2B9-4134-A85D-C92BE50493FD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>510</integer>
 		</dict>
 		<key>8282DD10-3AA9-469C-B681-3629599AB9CA</key>
 		<dict>
 			<key>xpos</key>
 			<integer>190</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>330</integer>
 		</dict>
-		<key>A5DBC9C7-FF2F-43A6-A092-74E95C619DBB</key>
+		<key>901B1800-E8C9-467C-92AA-D522F3ED4562</key>
 		<dict>
 			<key>xpos</key>
-			<integer>30</integer>
+			<integer>20</integer>
 			<key>ypos</key>
-			<integer>590</integer>
+			<integer>940</integer>
 		</dict>
-		<key>D7E5DE2F-1DA9-4859-AD32-711D851D93B3</key>
+		<key>9E08627D-FC6F-49A3-9F2E-8AA77A905F44</key>
 		<dict>
 			<key>xpos</key>
-			<integer>210</integer>
+			<integer>190</integer>
 			<key>ypos</key>
-			<integer>590</integer>
+			<integer>940</integer>
+		</dict>
+		<key>BE2DA7B6-0400-442A-8A76-863CEE44289D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>430</integer>
+			<key>ypos</key>
+			<integer>810</integer>
+		</dict>
+		<key>C2EF3884-4DD4-4274-8F3F-4A44E75161F1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>600</integer>
+			<key>ypos</key>
+			<integer>810</integer>
+		</dict>
+		<key>D8C3711E-187C-4066-968E-810B4E920193</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>140</integer>
 		</dict>
 		<key>E929FD56-B257-4345-91B1-DE719771AFC4</key>
 		<dict>
 			<key>xpos</key>
 			<integer>430</integer>
 			<key>ypos</key>
-			<integer>310</integer>
+			<integer>330</integer>
 		</dict>
-		<key>EE6C8832-F5C2-4279-9B1D-FA41B9055B5D</key>
+		<key>F2A678A6-E2DC-4974-8EA7-F9FBDDC77A2C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>30</integer>
+			<integer>600</integer>
 			<key>ypos</key>
-			<integer>460</integer>
+			<integer>510</integer>
 		</dict>
 		<key>F51437FF-2925-4621-8486-5718CC330DD9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>30</integer>
+			<integer>40</integer>
 			<key>ypos</key>
-			<integer>30</integer>
+			<integer>20</integer>
 		</dict>
 		<key>F5A2EF40-DCAC-4284-902D-8DA1FAD5D8D2</key>
 		<dict>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>270</integer>
+		</dict>
+		<key>F67D9F7B-A274-440B-82AD-729BFD821AD9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>660</integer>
+		</dict>
+		<key>FC1D79A0-2784-4136-91BC-F60E7B8D3DB6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>810</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

@@ -6,7 +6,8 @@ class MDNActions {
     }
     //请求MDN接口主逻辑
     feachMDNResult(input) {
-        alfy.fetch(`${this.URL}search.json?q=${input}`).then(MDNResponse => {
+        let encodedInput = encodeURI(input);
+        alfy.fetch(`${this.URL}search.json?q=${encodedInput}`).then(MDNResponse => {
             this.processResponse(MDNResponse)
         });
     }

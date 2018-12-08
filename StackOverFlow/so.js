@@ -4,9 +4,9 @@ const Config = require('../Config/CustomerConfig');
 class SoActions {
     constructor() {}
     getOriginResult(Api, Params) {
+        let ResultValueArr, ResultTranslationArr;
         alfy.fetch(Api, Params).then(Result => {
             if (Result.errorCode === 0) {
-                let ResultValueArr, ResultTranslationArr;
                 ResultValueArr = [];
                 ResultTranslationArr = Result.translation;
                 ResultTranslationArr.map((item) => {
@@ -27,7 +27,8 @@ class SoActions {
         outputResult = [];
         //此处是为了在第一项中显示翻译结果,添加了第一项的结果查询
         outputResult.push(ResultValueArr[0]);
-        alfy.fetch(`https://api.stackexchange.com/2.2/search?order=desc&sort=votes&intitle=${transResult}&site=stackoverflow`, transResult).then((Result) => {
+        let encodedtransResult = encodeURI(transResult);
+        alfy.fetch(`https://api.stackexchange.com/2.2/search?order=desc&sort=votes&intitle=${encodedtransResult}&site=stackoverflow`, transResult).then((Result) => {
             if (Result.items.length === 0) {
                 outputResult.push({
                     title: '无可用回答,请尝试重新输入',

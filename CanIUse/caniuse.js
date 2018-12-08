@@ -32,7 +32,7 @@ class FeachCanIuseAction {
         return {
             title: input,
             subtitle: FormattedResult,
-            arg: input
+            arg: `https://caniuse.com/#search=${input}`
         }
     }
 
