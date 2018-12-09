@@ -24,6 +24,10 @@ Base on [alfy](https://github.com/sindresorhus/alfy),AppleScript,Alfred,JavaScri
 
 文档地址:https://codermagefox.github.io/alfredMagic
 
+使用方法:直接下载项目中的AlfredMagic.alfredworkflow双击安装即可.
+
+百度网盘地址:https://pan.baidu.com/s/1Nl0gC9f-9EHbFPugcIzr4g
+
 #####  Code By [CoderMageFox](https://github.com/CoderMageFox) Blog:[No Silver Bullet](http://blog.codermagefox.com/) Mail:codermagefox@codermagefox.com
 
 

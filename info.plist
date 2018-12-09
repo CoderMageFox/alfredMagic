@@ -747,7 +747,7 @@
   tell application "Finder"
     set pathList to (quoted form of POSIX path of (folder of the front window as alias))
   end tell
-  
+
   tell application "System Events"
     if not (exists (processes where name is "Terminal")) then
       do shell script "open -a Terminal " &amp; pathList
@@ -867,13 +867,15 @@ export default class {query} extends React.Component {
 	</array>
 	<key>readme</key>
 	<string>
-alfredFE:可能是最好用的前端Alfred工作流.
-
+alfredMagic:一个面向效率的中文WorkFlow
 
 CodeBy:CoderMageFox
 Lincense:MIT
+Document:https://codermagefox.github.io/alfredMagic/
 Blog:http://blog.codermagefox.com
 Mail:codermagefox@codermagefox.com
+Version:0.0.1(是的,还是一个很不Cooool的版本)
+
 Have a nice time!
     </string>
 	<key>uidata</key>
@@ -1020,6 +1022,6 @@ Have a nice time!
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string>http://Blog.codermagefox.com</string>
+	<string>https://codermagefox.github.io/alfredMagic/</string>
 </dict>
 </plist>
