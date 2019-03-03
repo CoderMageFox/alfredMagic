@@ -10,6 +10,19 @@
 	<dict>
 		<key>0A329E4B-AB21-41F7-A869-D878DF4EAE92</key>
 		<array/>
+		<key>215B1908-2E7D-4BDE-93DC-F82AE36D1118</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3008B138-78B6-4133-BACC-0625A9310DD1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>234343B8-6F8E-448E-A094-9D864621269C</key>
 		<array>
 			<dict>
@@ -153,24 +166,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>FC1D79A0-2784-4136-91BC-F60E7B8D3DB6</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>186F7CEF-2C6D-48FB-93AD-8B4F0CDCD57D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 	</dict>
 	<key>createdby</key>
 	<string>CoderMageFox</string>
 	<key>description</key>
-	<string>一个面向效率提升的中文WorkFlow.</string>
+	<string>一个面向前端开发者效率提升的中文WorkFlow.</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -721,23 +721,67 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>&gt;h</string>
-				<key>subtext</key>
-				<string>可在此处调起Shell命令窗口</string>
-				<key>text</key>
-				<string>在此处调起Shell命令窗口</string>
-				<key>withspace</key>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
 				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>F67D9F7B-A274-440B-82AD-729BFD821AD9</string>
+			<string>3008B138-78B6-4133-BACC-0625A9310DD1</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>action</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Waiting...</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node './VariableNameTransLate/bigUnderLine.js' {query}
+</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>输入中文直接转换为大写+下划线格式(ReduxAction)</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>215B1908-2E7D-4BDE-93DC-F82AE36D1118</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -773,96 +817,23 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>import * as React from 'react';
-import * as Styles from './{query}.scss'
-
-export default class {query} extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			//定义状态
-		}
-	}
-
-	getDefaultProps() {
-		//do something
-	}
-
-	getInitialState() {
-		//do something
-	}
-
-	componentWillMount() {
-		//do something
-	}
-
-	componentDidMount() {
-		//do something
-	}
-
-	shouldComponentUpdate() {
-		//do something
-	}
-
-	ComponentDidUpdate() {
-		//do something
-	}
-
-	componentWillUnmount() {
-		//do something
-	}
-	static getDerivedStateFromProps(props, state) {
-		return null
-	}
-	render() {
-		//do something
-	}
-}
-
-</string>
-				<key>transient</key>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>&gt;h</string>
+				<key>subtext</key>
+				<string>可在此处调起Shell命令窗口</string>
+				<key>text</key>
+				<string>在此处调起Shell命令窗口</string>
+				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>186F7CEF-2C6D-48FB-93AD-8B4F0CDCD57D</string>
+			<string>F67D9F7B-A274-440B-82AD-729BFD821AD9</string>
 			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>1</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>FC1D79A0-2784-4136-91BC-F60E7B8D3DB6</string>
-			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -883,16 +854,16 @@ Have a nice time!
 		<key>0A329E4B-AB21-41F7-A869-D878DF4EAE92</key>
 		<dict>
 			<key>xpos</key>
-			<integer>610</integer>
+			<integer>640</integer>
 			<key>ypos</key>
-			<integer>670</integer>
+			<integer>550</integer>
 		</dict>
-		<key>186F7CEF-2C6D-48FB-93AD-8B4F0CDCD57D</key>
+		<key>215B1908-2E7D-4BDE-93DC-F82AE36D1118</key>
 		<dict>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>30</integer>
 			<key>ypos</key>
-			<integer>810</integer>
+			<integer>680</integer>
 		</dict>
 		<key>234343B8-6F8E-448E-A094-9D864621269C</key>
 		<dict>
@@ -900,6 +871,13 @@ Have a nice time!
 			<integer>430</integer>
 			<key>ypos</key>
 			<integer>140</integer>
+		</dict>
+		<key>3008B138-78B6-4133-BACC-0625A9310DD1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>640</integer>
+			<key>ypos</key>
+			<integer>680</integer>
 		</dict>
 		<key>31797CFC-07C7-497E-A94C-37F74F9E4787</key>
 		<dict>
@@ -925,14 +903,14 @@ Have a nice time!
 		<key>4491DCB4-1051-40D6-9980-15D9F9E9CD34</key>
 		<dict>
 			<key>xpos</key>
-			<integer>610</integer>
+			<integer>640</integer>
 			<key>ypos</key>
-			<integer>800</integer>
+			<integer>810</integer>
 		</dict>
 		<key>63044A5D-9F66-45B8-A33D-C050FFD61232</key>
 		<dict>
 			<key>xpos</key>
-			<integer>600</integer>
+			<integer>620</integer>
 			<key>ypos</key>
 			<integer>270</integer>
 		</dict>
@@ -955,7 +933,7 @@ Have a nice time!
 			<key>xpos</key>
 			<integer>320</integer>
 			<key>ypos</key>
-			<integer>670</integer>
+			<integer>550</integer>
 		</dict>
 		<key>8282DD10-3AA9-469C-B681-3629599AB9CA</key>
 		<dict>
@@ -969,7 +947,7 @@ Have a nice time!
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>670</integer>
+			<integer>550</integer>
 		</dict>
 		<key>D8C3711E-187C-4066-968E-810B4E920193</key>
 		<dict>
@@ -988,7 +966,7 @@ Have a nice time!
 		<key>F2A678A6-E2DC-4974-8EA7-F9FBDDC77A2C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>600</integer>
+			<integer>620</integer>
 			<key>ypos</key>
 			<integer>390</integer>
 		</dict>
@@ -1010,13 +988,6 @@ Have a nice time!
 		<dict>
 			<key>xpos</key>
 			<integer>440</integer>
-			<key>ypos</key>
-			<integer>800</integer>
-		</dict>
-		<key>FC1D79A0-2784-4136-91BC-F60E7B8D3DB6</key>
-		<dict>
-			<key>xpos</key>
-			<integer>20</integer>
 			<key>ypos</key>
 			<integer>810</integer>
 		</dict>

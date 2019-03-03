@@ -14,10 +14,13 @@
   "dependencies": {
     "algoliasearch": "^3.31.0",
     "caniuse-api": "^3.0.0",
+    "install": "^0.12.2",
     "lodash": "^4.17.11",
     "lodash.difference": "^4.5.0",
     "lodash.sample": "^4.2.1",
     "lodash.union": "^4.6.0",
-    "lodash.without": "^4.4.0"
+    "lodash.without": "^4.4.0",
+    "npm": "^6.8.0",
+    "quicktype": "^15.0.174"
   }
 }
