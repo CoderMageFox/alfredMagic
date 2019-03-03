@@ -17,10 +17,10 @@ Base on [alfy](https://github.com/sindresorhus/alfy),AppleScript,Alfred,JavaScri
 **Version 0.0.2**
 
 **注意:由于Alfred自身限制,所有功能快捷键需要您自己设置.可以通过查看文档/Workflow Script中的备注寻找对应的WorkFlow进行快捷键设置**
-文档地址:https://codermagefox.github.io/alfredMagic
+
 使用方法:直接下载项目中的AlfredMagic.alfredworkflow双击安装即可.
 
-百度网盘地址:https://pan.baidu.com/s/1Nl0gC9f-9EHbFPugcIzr4g
+(防墙)百度网盘下载链接: https://pan.baidu.com/s/1oO4PWQiLgCpbU3wY6yC4Hw 提取码: yetm 
 
 
 #####  Code By [CoderMageFox](https://github.com/CoderMageFox) Blog:[No Silver Bullet](http://blog.codermagefox.com/) Mail:codermagefox@codermagefox.com
