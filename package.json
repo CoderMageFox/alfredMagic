@@ -15,7 +15,7 @@
     "algoliasearch": "^3.31.0",
     "caniuse-api": "^3.0.0",
     "install": "^0.12.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "lodash.difference": "^4.5.0",
     "lodash.sample": "^4.2.1",
     "lodash.union": "^4.6.0",
