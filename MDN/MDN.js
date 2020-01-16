@@ -24,7 +24,7 @@ class MDNActions {
                 title: data.title,
                 //正则替换的原因是excerpt的返回结果里带了HTML标签,影响阅读.
                 subtitle: data.excerpt.replace(HTMLTagReg, ''),
-                arg: data.url,//此处将url置为arg是为了后面引用URL打开网页
+                arg: this.URL + data.slug,//此处将url置为arg是为了后面引用URL打开网页
             })
         });
         optimizedResponse = this.optimizeSearchResults(ProcessedResponse);
