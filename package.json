@@ -20,7 +20,7 @@
     "lodash.sample": "^4.2.1",
     "lodash.union": "^4.6.0",
     "lodash.without": "^4.4.0",
-    "npm": "^6.8.0",
+    "npm": "^6.14.6",
     "quicktype": "^15.0.174"
   }
 }
